@@ -1,0 +1,166 @@
+/*CSS for template.html (Linda Mull Family Album
+
+put your colors here
+
+green - header: #693
+light tan:  #ffa959
+orange: #f60
+dark blue: 006 / 003
+
+
+Created by Linda Mull 
+
+code snippets by 
+7/15/2012
+
+*/
+
+	
+#outerWrapper	{
+			margin-left: auto;
+			margin-right: auto;
+			width: 950px;
+			background-color: tan;
+			}
+
+#header		{
+			font-size: 72pt;
+			font-family: Georgia, "arial black", constantia; 
+			font-variant: small-caps;
+			width: 950px;
+			height: 135px;
+			background-color: #693;
+			}
+			
+#header img 	{border-style: none;
+			}
+						
+#navigation	{
+			text-align: center;
+			width: 950px;
+			height: 75px;
+			background-color: #996;
+			}
+			
+#navigation-bar	{
+				vertical-align: middle;
+				}
+
+#navigation-bar ul 	{
+					width: 90%;
+					list-style: none;
+					margin: 0px auto;
+					padding-left: 0px;
+					}
+
+#navigation-bar li 	{
+					float: left;
+					border: 2px solid olive;					
+					font-size: 20pt;
+					font-weight: bold;
+					font-family: constantia, garamond, alberta;
+					}
+
+#navigation-bar li a 	{
+					height: 20px;
+					line-height: 20px;
+					width: 147px;
+					padding: 5px 10px;
+					display: block;
+					color: black;
+					text-decoration: none;
+					background-color: #999933;
+
+					}
+					
+#main-content-left 	{
+					font-family: georgia, "times new roman", arial; 
+					font-size: 16pt; 
+					padding: 15px;
+					text-align: justify;
+					background-color: #fc6;
+					width: 643px;
+					height: 700px;
+					float: left;
+					}
+					
+#main-content-left table	{width: 95%; 
+						border-collapse: collapse;
+						}
+
+#main-content-left table th 	{
+							font-size: 14pt;
+							}
+						
+#main-content-left table td	{
+							font-size: 12pt;
+							padding: 5px 10px;
+							}
+						
+#main-content-divider	{
+					background-color: tan;
+					width: 4px;
+					height: 700px;
+					float: left;
+					}					
+
+#main-content-right 	{
+					font-size: 22px;
+					background-color: #c93;
+					width: 273px;
+					height: 727px;
+					float: left;
+					font-family: arial, georgia, garamond;
+					}
+					
+#main-content-right img 	{border-style: none;
+						float: right;
+						border: solid black;
+						margin-right: 15px;
+						}
+
+#main-content-right p	{
+						color: #900;
+						font-size: 20px;
+						padding: 10px;
+						text-align: justify;
+						font-family: "times new roman", georgia, arial;
+						}
+
+						
+#main-content-right h3	{
+						padding: 5px;
+						text-align: center;
+						font-family: "times new roman", georgia, arial;
+						}
+
+#main-content-right h2	{
+						text-align: center;
+						}
+
+#main-content-right li	{
+						font-size: 11pt;
+						padding-right: 25px;
+						padding-left: -5px;
+						padding-top: 15px;
+						text-align: justify;
+						}						
+
+#main-content-right 	img	{
+						}
+			
+#footer	{
+		clear: both;
+		background-color: #c96;
+		width: 950px;
+		height: 50px;
+	}
+	
+#footer	p{
+		padding-top: 15px;
+		text-align: center;
+		}	
+
+#footer a {text-decoration: none;
+					}
+		
